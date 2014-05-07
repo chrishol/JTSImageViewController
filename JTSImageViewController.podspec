@@ -6,13 +6,13 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE'  }
   s.author       = { "Jared Sinclair" => "desk@jaredsinclair.com" }
   s.source       = { :git => "https://github.com/jaredsinclair/JTSImageViewController.git", :tag => s.version.to_s }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
   s.frameworks   = 'UIKit', 'ImageIO', 'Accelerate'
   
   s.compiler_flags = "-fmodules"
   
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '6.0'
   
   s.source_files = ['Source/*.{h,m}']
 
